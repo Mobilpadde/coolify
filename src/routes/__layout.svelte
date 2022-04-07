@@ -313,6 +313,29 @@
 					</svg>
 				</a>
 				<div class="border-t border-stone-700" />
+				<a
+					sveltekit:prefetch
+					href="/logs"
+					class="icons tooltip-right bg-coolgray-200 hover:text-pink-500"
+					class:text-pink-500={$page.url.pathname.startsWith('/logs')}
+					class:bg-coolgray-500={$page.url.pathname.startsWith('/logs')}
+					data-tooltip="Logs"
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-8 w-8"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-12" />
+					</svg>
+				</a>
+				<div class="border-t border-stone-700" />
 			</div>
 			<div class="flex-1" />
 
