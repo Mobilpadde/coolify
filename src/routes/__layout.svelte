@@ -332,7 +332,11 @@
 						stroke-linejoin="round"
 					>
 						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-						<path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-12" />
+						<path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+						<path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+						<line x1="3" y1="6" x2="3" y2="19" />
+						<line x1="12" y1="6" x2="12" y2="19" />
+						<line x1="21" y1="6" x2="21" y2="19" />
 					</svg>
 				</a>
 				<div class="border-t border-stone-700" />
